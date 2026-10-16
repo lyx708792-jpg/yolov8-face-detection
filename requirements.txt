@@ -1,0 +1,14 @@
+# YOLOv8 人脸检测 —— 依赖（版本为实测环境，见 README「实测环境」）
+# 注意：PyTorch 需按显卡 CUDA 版本单独安装，不写在本文件里，例如：
+#   pip install torch==2.14.0 torchvision==0.29.0 --index-url https://download.pytorch.org/whl/cu130
+
+ultralytics==8.4.161
+numpy==2.5.3
+pandas==3.0.6
+scipy==1.18.1
+matplotlib==3.11.2
+seaborn==0.13.2
+pillow==12.3.0
+PyYAML==6.0.3
+psutil==7.2.2
+tqdm==4.70.1

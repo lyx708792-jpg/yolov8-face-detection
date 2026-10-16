@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 编辑器
+.idea/
+.vscode/
+
+# 数据集与中间数据（体积过大，不随仓库分发）
+datasets/mydata/
+datasets/coco128/
+datasets/*.zip
+datasets/*.cache
+_val_tmp/
+
+# 训练产物：只保留 face_4000 的 best.pt 与曲线，其余不入库
+runs/detect/*/weights/last.pt
+runs/**/weights/*.onnx
+runs/**/weights/*.engine
+runs/webcam_shots/
+*.pt.bak
+
+# 其他临时文件
+*.tmp
+*.log
+Thumbs.db
+desktop.ini
